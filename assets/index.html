@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+  <link href="bundle.css" rel="stylesheet">
+</head>
+<body ng-controller="MainCtrl">
+  <h1>Test</h1>
+  <button ng-click="save(imageUri, name)">Save</button>
+  <input type="text" placeholder="search" ng-model="name"/>
+  Search<input type="text" ng-model="searchPhrase"/>
+  <button ng-click="search(searchPhrase)">Search</button>
+  <image-upload image-uri="imageUri"></image-upload>
+
+  <div ng-repeat="item in listItems">
+    {{item.id}}: <img ng-src="{{ item.imageUri }}"></img>{{item.name}} 
+    <button ng-click="delete(item)">X</button>
+  </div>
+
+  <script src="bundle.js"></script>
+  <!-- Angular Templates -->
+  <!-- build:section templates --><!-- /build -->
+</body>
+</html>

@@ -1,0 +1,31 @@
+{
+  "name": "sails-test2",
+  "version": "0.0.0",
+  "authors": [
+    "Danny Nelson <danielnelsonguitar@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.16",
+    "angular-mocks": "~1.2.16",
+    "bootstrap": "~3.1.1",
+    "angular-ui-router": "~0.2.10",
+    "angular-ui-utils": "~0.1.1",
+    "socket.io-client": "~0.9.16",
+    "sails.io.js": "~0.10.0-rc2",
+    "angular-sails": "~1.0.4",
+    "lodash": "~2.4.1",
+    "angular-moment": "~0.7.0",
+    "angular-translate": "~2.1.0",
+    "angular-translate-loader-static-files": "~2.1.0",
+    "angular-bootstrap": "~0.10.0",
+    "ng-table": "~0.3.2"
+  }
+}
